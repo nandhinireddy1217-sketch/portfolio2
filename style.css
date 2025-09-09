@@ -1,0 +1,93 @@
+body{
+    background-color: #f9f9f9;font-family: Arial, Helvetica, sans-serif;
+    color:#3333;margin:0
+}
+header{
+    background-color: #2c3e50;color:white;
+    padding:15px;display:flex;justify-content: space-between;align-items: center;
+}
+a{
+    color:aqua
+}
+nav a{
+    color: rgb(228, 168, 168);text-decoration: none;
+    font-weight: bold;margin:0 12px;
+}
+.hero{
+    background: url("https://picsum.photos/1200/400?travel") center/cover no-repeat;
+    color:rgb(219, 188, 188);padding:60px 25px;text-align: center;
+}
+.container{
+    display:flex;gap:20px;padding:30px;
+    flex-wrap: wrap;justify-content: space-around;
+}
+.cards{
+    flex: 1;border-radius: 10px;background-color: rgb(226, 188, 188);
+    box-shadow: 0 5px 11px black;padding:20px;
+    min-width:250px;transition: all 0.5s ease;
+}
+.cards:hover{
+    transform:translateY(15px);
+}
+nav a:hover{
+    color:violet;
+}
+.feedback{
+    text-align: center;
+    display:flex;gap:20px;padding:30px;
+    flex-wrap: wrap;justify-content: space-around;
+}
+.unique{
+    flex: 1;border-radius: 12px;background-color: #f9f9f9;
+    box-shadow:0 5px 11px purple;padding:25px;
+    min-width: 250px;transition: all 0.5s ease;
+}
+.unique:hover{
+    transform: translateY(15px);
+}
+.contact{
+    background: #f39c12;color:white;padding:40px 20px;text-align: center;
+}
+.contact button{
+    background-color: #2c3e50;color:white;padding:12px 20px;font-weight: bold;font-size: 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #2c3e50;text-align: center;
+    color:white;padding: 20px;margin-top: 20px;
+}
+figure{
+   min-width:400px;
+}
+figure img{
+    border-radius: 25px;
+}
+figcaption{
+    text-align: center;font-weight: bold;font-size: 20px;
+}
+.grid{
+    display:grid;grid-template-columns:1fr 2fr;gap:20px;
+    padding:20px;min-height: 70vh;
+}
+.sidework{
+    background-color: #ecf0f1;border-radius: 10px;box-shadow: 0 5px 12px black;
+    padding:20px;
+}
+.sidework h2{
+    text-align: center;
+}
+.booking{
+    display:grid;background-color: #ecf0f1;place-items: center;
+    box-shadow: 0 5px 13px black;border-radius: 12px;
+}
+.booking-form{
+    display:grid;gap:20px;width: 100%;
+}
+.booking-form input,.booking-form textarea{
+    border-radius: 10px;padding:15px;border:1px solid#ccc;margin:10px;
+}
+.booking-form button{
+    background-color: #2c3e50;color:white;padding:20px;
+    border-radius:10px;font-weight: bold;font-size:25px;
+    margin-left: 500px;
+}

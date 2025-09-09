@@ -1,0 +1,122 @@
+body{
+    background-color:#f1e5fd;
+    padding:20px
+}
+h1{
+    color:#b49ae6;
+    text-align: center;
+    font-size: 50px;
+}
+h1:hover{
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    margin:0 20px;
+    padding:8px ;
+    font-weight: bold;
+    color:rgb(188, 146, 228);
+    border-radius: 100px;
+    font-size: 30px;
+}
+nav a:hover{
+    background-color: rgb(203, 160, 238);
+    color: rgb(255, 255, 255);
+}
+hr{
+    margin: 30px auto;
+    width: 1000px;
+    border-top: 2px solid black;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    width:1000px;
+    margin:30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 13px rgb(215, 169, 233);
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%;
+    border:3px solid rgb(215, 114, 255);
+}
+figcaption{
+    font-size: 30px;
+    font-weight: bold;
+}
+section h2{
+    border-bottom:2px solid rgb(188, 129, 236) ;
+    padding-bottom:15px ;
+}
+article{
+    background-color: rgb(191, 166, 230);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 12px blueviolet;
+    border-left: 4px solid rgb(206, 163, 241);
+    margin-top: 14px;
+}
+h3{
+    font-size: 40px;
+}
+details{
+    margin-top: 5px;
+}
+summary{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(134, 66, 148);
+}
+a{
+    text-decoration: none;
+}
+li{
+    background-color: #c598e4;
+    border-radius: 10px;
+    padding:10px;
+    margin: 20px 0;
+    text-align: left;
+    font-size: 24px;
+}
+ul{
+  list-style-type: none;
+}
+ol{
+    list-style-type: none;
+}
+body p:hover{
+    background-color: #c598e4;
+}
+form{
+    text-align: center;
+}
+input,textarea{
+    width:100%;
+    padding:5px;
+}
+form{
+    font-size: 15px;
+}
+button{
+    margin-left:25px;
+    padding: 10px;
+    background-color: #c598e4;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #b49ae6;
+    color:rgb(255, 255, 255);
+}
+
+
